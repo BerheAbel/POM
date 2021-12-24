@@ -1,0 +1,132 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3030841100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should be able to login to techfios page",
+        "description": "",
+        "id": "techfios-login-fuctionality;user-should-be-able-to-login-to-techfios-page",
+        "after": [
+          {
+            "result": {
+              "duration": 736682300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1416052100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 140787400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User put username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.user_put_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98688800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User put password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.user_put_password_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1885495000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click of signin button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_of_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 593252100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be on dashboard page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_be_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Scenario1"
+          },
+          {
+            "line": 4,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios login fuctionality",
+    "description": "",
+    "id": "techfios-login-fuctionality",
+    "keyword": "Feature",
+    "uri": "features/TechfiosLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Loginpage"
+      }
+    ]
+  }
+]
